@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class Admin extends User {
-    private String name;
+    protected String name;
     private LocalDate dob;
 
     public Admin() {

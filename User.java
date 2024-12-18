@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class User {
-    private String name;
+    protected String name;
     private LocalDate dob;
 
     public User() {
